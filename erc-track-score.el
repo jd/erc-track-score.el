@@ -101,7 +101,7 @@
             (erc-modified-channels-display)))))))
 
 ;;;###autoload (autoload 'erc-track-score-mode "erc-track-score" nil t)
-(define-erc-module erc-track-score nil
+(define-erc-module track-score nil
   "This mode adds score support to erc-track."
   ((unless erc-track-score-timer
      (setq erc-track-score-timer
