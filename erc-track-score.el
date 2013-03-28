@@ -115,3 +115,5 @@
    (remove-hook 'erc-text-matched-hook 'erc-track-score-update-on-match)))
 
 (provide 'erc-track-score)
+
+;;; erc-track-score.el ends here
